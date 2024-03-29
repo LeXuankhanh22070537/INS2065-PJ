@@ -2,7 +2,7 @@
 
 ## GROUP <add-group-name>
 
-- Member 1: Lê-Xuân-Khánh
+- Member 1: Lê Xuân Khánh
 - Member 2: <add-name>
 - Member 3: <add-name>
 - Member 4: <add-name>
