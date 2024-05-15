@@ -1,11 +1,11 @@
 # README
 
-## GROUP <add-group-name>
+## GROUP 9 
 
 - Member 1: Lê Xuân Khánh
-- Member 2: <add-name>
-- Member 3: <add-name>
-- Member 4: <add-name>
+- Member 2: Dương Chấn Long
+- Member 3: Nguyễn Xuân Thành Đạt
+- Member 4: Lê Đình Hoàng
 
 ## Starting server
 
