@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   resources :subjects
   resources :writers
   resources :positions
+  resources :genres
   authenticate :user, ->(u) { u.admin? } do
     mount Sidekiq::Web => '/sidekiq'
   end
