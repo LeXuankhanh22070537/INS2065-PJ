@@ -1,0 +1,33 @@
+<div class="max-w-3xl mx-auto px-4">
+  <div class="flex items-center justify-between">
+    <h1 class="flex-1 font-bold text-3xl">Position</h1>
+
+    <div class="flex-wrap lg:flex items-center lg:space-x-3">
+      <%= link_to positions_path, class: button_class(theme: "transparent") do %>
+      All Positions
+      <% end %>
+      <%= link_to edit_position_path(@position), class: button_class(theme:"primary") do %>
+      Edit
+      <% end %>
+    </div>
+  </div>
+
+  <ul class="text-slate-700">
+      <li>
+        <p class="font-semibold">Book:</p>
+        <p><%= @position.book %></p>
+      </li>
+      <li>
+        <p class="font-semibold">Floor:</p>
+        <p><%= @position.floor %></p>
+      </li>
+      <li>
+        <p class="font-semibold">Bookshelves:</p>
+        <p><%= @position.bookshelves %></p>
+      </li>
+      <li>
+        <p class="font-semibold">Row:</p>
+        <p><%= @position.row %></p>
+      </li>
+  </ul>
+</div>
